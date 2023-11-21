@@ -1,0 +1,61 @@
+.principal {
+    width: 800px;
+    margin: 0 auto;
+}
+.cabecalho {
+    border-bottom: #000000 1px solid;
+}
+.cabecalho-fonte {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hmenu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hmenu ul {
+    list-style: none;
+    padding: 0;
+}
+.hmenu ul li {
+    display: inline;
+}
+.hmenu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.hmenu ul li a:hover {
+    background-color: rgb(36, 109, 206);
+    color: rgb(255, 255, 255);
+}
+.hmenu ul li a:visited {
+    color: cornflowerblue;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+    font-size: 18px;
+}
+
+p::first-letter {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.curiosidades {
+    color: rgb(232, 145, 239);
+    font-size: 14px;
+}
+
+.curiosidades-pequenas {
+    font-size: 12px;
+}
+
+.curiosidades-grandes {
+    font-size: 16px;
+}
+
+

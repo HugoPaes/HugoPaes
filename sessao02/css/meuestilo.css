@@ -1,0 +1,32 @@
+.cabecalho {
+    border-bottom: #000000 1px solid;
+}
+.cabecalho-fonte {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+    font-size: 18px;
+}
+
+p::first-letter {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.curiosidades {
+    color: rgb(232, 145, 239);
+    font-size: 14px;
+}
+
+.curiosidades-pequenas {
+    font-size: 12px;
+}
+
+.curiosidades-grandes {
+    font-size: 16px;
+}
+
+

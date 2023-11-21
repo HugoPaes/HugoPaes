@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minha Tabela</title>
+        <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 24px;
+        }
+
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        table {
+            border: 2px #000000 solid;
+            width: 100%;
+        }
+
+        th, td  {
+            border: 1px #6e3ae7 solid;
+        }
+
+        h3, th td {
+            text-align: center;
+        }
+
+        .div-centralizada {
+            margin: 0 auto;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .codigos {
+            text-align: center;
+        }
+
+        .textos {
+            text-align: justify;
+        }
+
+        .valores {
+            text-align: right;
+        }
+
+    </style>
+    </head>
+    <body>
+        <main>
+            <div class="div-centralizada">
+                <h3>Meus Produtos</h3>
+            </div>
+            <div class="div-centralizada">
+                <h4>Produtos na tabela</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Fabricante</th>
+                            <th>Tamanho</th>
+                            <th>Quantidade</th>
+                            <th>Preço Unitário (R$)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3" class="codigos">Total</td>
+                            <td class="valores">130</td>
+                            <td class="valores">30400,00</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td class="codigos">1</td>
+                            <td>Nike</td>
+                            <td class="valores">36</td>
+                            <td class="valores">100</td>
+                            <td class="valores">230,00</td>
+                            <td><img src="img/tenisNike.jpg" alt="Tênis Nike"></td>
+                        </tr>
+                        <tr>
+                            <td class="codigos">2</td>
+                            <td>Adidas</td>
+                            <td class="valores">40</td>
+                            <td class="valores">20</td>
+                            <td class="valores">245,00</td>
+                            <td><img src="img/tenisAdidas.jpg" alt="Tênis Adidas"></td>
+                        </tr>
+                        <tr>
+                            <td class="codigos">3</td>
+                            <td>Mizuno</td>
+                            <td class="valores">41</td>
+                            <td class="valores">    10</td>
+                            <td class="valores">350,00</td>
+                            <td><img src="img/tenisMizuno.jpg" alt="Tênis Mizuno"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
