@@ -21,5 +21,5 @@ agenda.append(pessoa2)
 agenda.append(pessoa3)
 
 for contato in agenda:
-    print(contato['nome', 'email', 'telefone'])
+    print(contato['nome'])
     
