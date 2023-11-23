@@ -25,3 +25,18 @@ def listar(vetor):
         print(f"""{elemento['nome']}\t
         {elemento['email']}
         \t{elemento['telefone']}""")
+        
+def excluir(vetor, nomeBusca):
+        posicao = -1
+        encontrado = False
+        for elemento in vetor:
+            posicao = posicao + 1
+            if elemento['nome'].lower() == nomeBusca.lower():
+                encontrado = True
+                break
+        if encontrado:
+            return posicao
+    
+        else:
+            return -1
+        
